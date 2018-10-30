@@ -1,36 +1,23 @@
 body {
    background-image:url("http://www.clubedeexperiencias.com.br/static/admin/images/gallery/destinos/black-39844.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-
+  background-repeat: no-repeat;
+  background-size: cover, auto;
   text-align:center;
 }
 
 
-.parent {
-  position: relative;
-  top: 0;
-  left: 0;
+
+img{
+  position:  static;
+  text-align:center;
 }
 .image1{
-  position: relative;
-  top: 25px;
-  left: 0px;
-   height: 900px;
-    width: 1900px;
+  position: static;
 }
-.image2 {
-  position: relative;
-  top: -900px;
-  left: 0;
-  height: 900px;
-  width: 2300px;
-}
-
-
+  
 * {
-				
-				color: #ffffff;
+				font-family: Arial, Verdana, sans-serif;
+				color: #000000;
 				text-align: center;}
 			body {
 				width: 90%;
@@ -39,21 +26,17 @@ body {
 				overflow: auto;}
 
 			#nav, #feature, #footer {
-				margin: 1%;
-}
-#nav{
-  margin-top:-930px;
-}
+				margin: 1%;}
 h1{
  color: #ffffff; 
 }
-		
-		
+
 
 			li {
-			  
+			  position: static;
 				display: inline;
 				padding: 0.5em;}
+
 			#nav, #footer {
 				background-color: #000000;
 				padding: 0.5em 0;}z
@@ -65,11 +48,60 @@ h1{
 
      
 h2 ,h1, a{ 
-   font-family: 'JelleeRoman'; 
+   font-family: 'WaltographRegular'; 
    font-weight: normal; 
    font-style: normal; 
 }
+
+#feature{
+  background-color:#4b2e83;
+  background-image: url("http://1y4yclbm79aqghpm1xoezrdw.wpengine.netdna-cdn.com/wp-content/uploads/2018/03/Dubs-UW-_620-620x370.jpg");
+  background-size: contain;
+  background-position: center;
+   background-repeat: no-repeat;
 }
+
+
+
+
+h2 , a{ 
+   font-family: 'JelleeRoman'; 
+   font-weight: normal; 
+   font-style: normal; 
+   color: #ffffff;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
