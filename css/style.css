@@ -10,10 +10,11 @@ body {
 img{
   position:  static;
   text-align:center;
+  width: 2000px;
+  Height: 1500px;
+  
 }
-.image1{
-  position: static;
-}
+ 
   
 * {
 				font-family: Arial, Verdana, sans-serif;
@@ -28,7 +29,7 @@ img{
 			#nav, #feature, #footer {
 				margin: 1%;}
 h1{
- color: #ffffff; 
+ color:#9696ff; 
 }
 
 
@@ -47,11 +48,6 @@ h1{
 				background-color: #4b2e83;}
 
      
-h2 ,h1, a{ 
-   font-family: 'WaltographRegular'; 
-   font-weight: normal; 
-   font-style: normal; 
-}
 
 #feature{
   background-color:#4b2e83;
@@ -64,12 +60,22 @@ h2 ,h1, a{
 
 
 
-h2 , a{ 
+ a{ 
    font-family: 'JelleeRoman'; 
    font-weight: normal; 
    font-style: normal; 
    color: #ffffff;
+   text-shadow: 5px 2px #9696ff
+;
 
+}
+h1{ 
+   font-family: 'GreatVibesRegular'; 
+   font-weight: normal; 
+   font-style: normal;
+   font-size:1000%;
+  text-shadow: 5px 2px #ffc9c9;
+  text-align:center;
 }
 
 
